@@ -1,0 +1,143 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    }
+
+.main-container {
+    display: flex;
+    flex-direction: row;
+height: 60%;
+width: 50%;
+background-color: cadetblue;
+margin: auto;
+margin-top: 100px;
+}
+
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    border: 2px solid blue;
+}
+
+.widget-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-around;
+    width: 75%;
+    border: 2px solid blue;
+}
+
+.widget-container .widget {
+    display: flex;
+    width: 33%;
+    height: 50%;
+    border: 2px solid green;
+    border-radius: 20px;
+}
+
+.widget-container .widget-color1 {
+    background-color: rgb(171, 14, 14);
+}
+
+.widget-container .widget-color2 {
+    background-color: rgb(184, 99, 99);
+}
+
+.widget-container .widget-color3 {
+    background-color: rgb(80, 68, 68);
+}
+
+.widget-container .widget-color4 {
+    background-color: rgb(44, 5, 5);
+}
+
+.widget-container .widget-color5 {
+    background-color: rgb(238, 229, 229);
+}
+
+.widget-container .widget-color6 {
+    background-color: rgb(158, 82, 82);
+}
+
+.inner-widget {
+    width: 100%;
+    height: 80%;
+    /* border: 2px solid yellow; */
+    border-radius: 20px;
+    margin-top: 35px;
+    background-color:rgb(30, 3, 78);
+    color: white;
+}
+
+.domain h5 {
+    display: inline-block;
+}
+
+.domain span {
+    margin-left: 48px;
+    /* margin-right: 10px; */
+    text-align: right;
+}
+
+.domain h2, h5, h6 {  
+    text-align: left;
+    margin: 10px;
+}
+
+.profile-container {
+display: flex;
+flex-direction:column;
+}
+
+.emp-name {
+    width:100%;
+    height: 70%;
+    border: 2px solid red;
+}
+
+.side-nav nav a{
+    text-decoration: none;
+    display: block;
+    color: rgb(250, 224, 224);
+    cursor: pointer;
+    padding: 10px;
+}
+
+.side-nav nav a:hover {
+    color: white;
+}
+
+.side-nav nav a:nth-child(2) {
+    color: white;
+  }
+
+  .emp-name .emp-img img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    border: 3px solid #555;;
+    margin: 10px;
+  }
+
+  .emp-name .emp-img p , h2 {
+    margin: 10px;
+  }
+
+  .emp-name .emp-img h2 {
+    color: white;
+  }
+
+  .emp-name .emp-img p {
+    color: wheat;
+     font-size: 0.6rem;
+  }
